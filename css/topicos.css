@@ -1,0 +1,55 @@
+.topicos-visitados{
+    background: var(--cor-azul-degrade);
+    margin-top: 1rem;
+    padding: 1rem 0;
+    text-align: center;
+}
+.topicos-visitados-h2{
+    color: var(--cor-branca);
+    font-weight: 300;
+    padding-bottom: 1rem ;
+}
+.topicos-visitados-ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.visitados-botoes{
+    margin: 1.5rem 0.5rem;
+}
+.visitados-botao{
+    color: var(--cor-branca);
+    font-size: 0.87rem;
+    font-weight: 700;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    background-color: var(--cor-laranja);
+}
+@media screen and (min-width:1024px){
+    .topicos-visitados{
+        height: 50%;
+    }
+    .topicos-visitados-ul{
+        padding: 0 9rem 0 9rem;
+        margin: 1rem 0 1rem 0;
+    }
+    .topicos-visitados-h2{
+        font-size: 24px;
+    }
+    .visitados-botao{
+        font-size: 18px;
+    }
+    .topicos-visitados-h2{
+        padding-top: 1rem;
+    }
+    .visitados-botoes{
+        margin: 1.7rem 0.7rem;
+    }
+}
+@media screen and (min-width: 1728px){
+    .topicos-visitados-ul{
+        padding: 0 9rem 0 9rem;
+        margin: 1rem 25rem 1rem 25rem;
+    }
+}
