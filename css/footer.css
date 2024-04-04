@@ -38,9 +38,13 @@
         gap: 0.5rem;
 
     }
+    .footer hr{
+        display: none;
+    }
 }
 @media screen and (min-width:1728px){
     .footer hr{
+        display: block;
         height: 22rem;
         margin: 2rem 0 2rem 0;
     }
